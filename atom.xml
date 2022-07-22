@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lbnliboning.github.io</id>
+    <title>李泊宁</title>
+    <updated>2022-07-22T04:45:59.277Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://lbnliboning.github.io"/>
+    <link rel="self" href="https://lbnliboning.github.io/atom.xml"/>
+    <subtitle>记录李泊宁的精彩瞬间~
+&lt;div id=&quot;he-plugin-simple&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+WIDGET = {
+  &quot;CONFIG&quot;: {
+    &quot;modules&quot;: &quot;01234&quot;,
+    &quot;background&quot;: &quot;1&quot;,
+    &quot;tmpColor&quot;: &quot;FFFFFF&quot;,
+    &quot;tmpSize&quot;: &quot;16&quot;,
+    &quot;cityColor&quot;: &quot;FFFFFF&quot;,
+    &quot;citySize&quot;: &quot;16&quot;,
+    &quot;aqiColor&quot;: &quot;FFFFFF&quot;,
+    &quot;aqiSize&quot;: &quot;16&quot;,
+    &quot;weatherIconSize&quot;: &quot;24&quot;,
+    &quot;alertIconSize&quot;: &quot;18&quot;,
+    &quot;padding&quot;: &quot;3px 3px 3px 3px&quot;,
+    &quot;shadow&quot;: &quot;1&quot;,
+    &quot;language&quot;: &quot;auto&quot;,
+    &quot;borderRadius&quot;: &quot;7&quot;,
+    &quot;fixed&quot;: &quot;false&quot;,
+    &quot;vertical&quot;: &quot;right&quot;,
+    &quot;horizontal&quot;: &quot;right&quot;,
+    &quot;key&quot;: &quot;340c61c1fcec43cb9fd3b4c6e1b725ff&quot;
+  }
+}
+&lt;/script&gt;
+&lt;script src=&quot;https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0&quot;&gt;&lt;/script&gt;</subtitle>
+    <logo>https://lbnliboning.github.io/images/avatar.png</logo>
+    <icon>https://lbnliboning.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, 李泊宁</rights>
+</feed>

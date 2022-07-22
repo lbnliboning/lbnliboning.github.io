@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>关于作者 | 李泊宁</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://lbnliboning.github.io/favicon.ico?v=1658464405310">
+<link rel="stylesheet" href="https://lbnliboning.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="李泊宁，宜昌市西陵区外国语小学1703班学生，2022年度阳光智慧好少年勋章获得者，爱好游泳、编程、数学、语文。
+" />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://lbnliboning.github.io">
+        <img src="https://lbnliboning.github.io/images/avatar.png?v=1658464405310" class="site-logo">
+        <h1 class="site-title">李泊宁</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="https://lbnliboning.github.io/post/about" class="site-nav">
+            关于作者
+          </a>
+        
+      
+        
+          <a href="https://lbnliboning.github.io" class="site-nav">
+            首页
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      记录李泊宁的精彩瞬间~
+<div id="he-plugin-simple"></div>
+<script>
+WIDGET = {
+  "CONFIG": {
+    "modules": "01234",
+    "background": "1",
+    "tmpColor": "FFFFFF",
+    "tmpSize": "16",
+    "cityColor": "FFFFFF",
+    "citySize": "16",
+    "aqiColor": "FFFFFF",
+    "aqiSize": "16",
+    "weatherIconSize": "24",
+    "alertIconSize": "18",
+    "padding": "3px 3px 3px 3px",
+    "shadow": "1",
+    "language": "auto",
+    "borderRadius": "7",
+    "fixed": "false",
+    "vertical": "right",
+    "horizontal": "right",
+    "key": "340c61c1fcec43cb9fd3b4c6e1b725ff"
+  }
+}
+</script>
+<script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
+    </div>
+    <div class="site-footer">
+      湖北省宜昌市西陵区锦绣华府5-2601室  李泊宁家庭民主生活会
+联系方式：15071746811       | <a class="rss" href="https://lbnliboning.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">关于作者</h2>
+            <div class="post-date">2022-06-12</div>
+            
+              <div class="feature-container" style="background-image: url('https://lbnliboning.github.io/post-images/about.png')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>李泊宁，宜昌市西陵区外国语小学1703班学生，2022年度阳光智慧好少年勋章获得者，爱好游泳、编程、数学、语文。</p>
+
+            </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '88b0c20ef4935182ffc6',
+        clientSecret: '29354ce1c9cb2c21df4c2ff1245f2267b470d4ab',
+        repo: 'lbnliboning.github.io',
+        owner: 'lbnliboning',
+        admin: ['lbnliboning'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
